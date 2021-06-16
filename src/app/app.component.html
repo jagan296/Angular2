@@ -1,16 +1,14 @@
 <div class="container text-center">
-  <h1 class="display-3 text-secondary">Products Management System</h1>
+  <h1 class="display-3 text-secondary">Main Page</h1>
 </div>
 
-<!-- nest products component -->
+<!-- nesting of elements -->
 
-<div class="container">
-  <app-products></app-products>
-</div>
+<div class="container bg-secondary ps-5 pe-5 m-5 mx-auto d-flex justify-content-end text-light">
 
-
-<!-- nest footer component -->
-
-<div style="position: absolute; bottom: 0px; width: 100%;">
-  <app-footer></app-footer>
+  <app-home class="ps-1 pe-1"></app-home>
+  <app-register class="ps-1 pe-1"></app-register>
+  <app-login class="ps-1 pe-1"></app-login>
+  <app-contact-us class="ps-1 pe-1"></app-contact-us>
+  <app-product class="ps-1 pe-1"></app-product>
 </div>
