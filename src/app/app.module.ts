@@ -12,6 +12,10 @@ import { LoginComponent } from './login/login.component';
 import { RegisterComponent } from './register/register.component';
 import { ContactUsComponent } from './contact-us/contact-us.component';
 import { ProductComponent } from './product/product.component';
+import { MobilesComponent } from './mobiles/mobiles.component';
+import { BikesComponent } from './bikes/bikes.component';
+import { TelevisionsComponent } from './televisions/televisions.component';
+import { PagenotfoundComponent } from './pagenotfound/pagenotfound.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +28,11 @@ import { ProductComponent } from './product/product.component';
     LoginComponent,
     RegisterComponent,
     ContactUsComponent,
-    ProductComponent
+    ProductComponent,
+    MobilesComponent,
+    BikesComponent,
+    TelevisionsComponent,
+    PagenotfoundComponent
   ],
   imports: [
     BrowserModule,

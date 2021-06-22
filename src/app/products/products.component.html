@@ -1,12 +1,18 @@
-<p *ngFor="let i  of productsSentByChild">{{i}}</p>
 
-<!-- <app-product-details></app-product-details> -->
+<!-- pills -->
 
+<ul class="nav nav-pills justify-content-evenly mt-3">
+    <li class="nav-item bg-secondary">
+      <a class="nav-link text-light" routerLink="mobiles" routerLinkActive="active">Mobiles</a>
+    </li>
+    <li class="nav-item bg-secondary">
+      <a class="nav-link text-light" routerLink="bikes" routerLinkActive="active">Bikes</a>
+    </li>
+    <li class="nav-item bg-secondary">
+      <a class="nav-link text-light" routerLink="televisions"  routerLinkActive="active">Televisions</a>
+    </li>
+  </ul>
 
-<div class="row row-cols-1 row-cols-sm-1 row-cols-md-2 row-cols-lg-3 g-4 mt-5 mb-5">
-
-    <div class="col" *ngFor="let p of products">
-        <app-product-details [proObj]=p (myEvent)="getProductDetailsFromChild($event)"></app-product-details>
-    </div>
-
-</div>
+  <div class="container">
+      <router-outlet></router-outlet>
+  </div>
