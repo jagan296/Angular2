@@ -2,3 +2,8 @@ a:focus
 {
     background-color: rgb(240, 136, 0);
 }
+
+.active{
+    background-color: chocolate;
+    color:darkgray;
+}
